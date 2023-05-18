@@ -1,0 +1,29 @@
+Objective:
+The objective of the test is to validate the security measures implemented in the API and ensure that unauthorized access is restricted.
+The focus will be on authentication mechanisms, authorization checks, encryption, and any other security-related features.
+
+Scope:
+The scope of the testing will cover the secure endpoints of the API.
+Testing will include various scenarios related to authentication and authorization.
+
+Test Approach:
+The test approach will be to simulate different authentication scenarios, including valid and invalid tokens, to ensure that only authorized access is granted.
+Authorization checks will be performed to verify that users are granted appropriate permissions based on their roles.
+Encryption and secure communication protocols will be tested to ensure data integrity and confidentiality.
+
+Test Environment:
+The test environment will include the Reqres API for the secure endpoints.
+The testing will be performed using JavaScript code in Visual Studio Code.
+
+Test Cases:
+Test Case 1: Valid Authentication - Send a request with a valid token and verify successful access to the secure endpoint.
+Test Case 2: Invalid Authentication - Send a request with an invalid token and verify access is denied.
+Test Case 3: Authorization Check - Verify that users with different roles can access only the endpoints they are authorized for.
+Test Case 4: Encryption - Verify that the API endpoints use secure communication protocols (e.g., HTTPS) to ensure data integrity and confidentiality.
+
+Test Data:
+Test data will include valid and invalid authentication tokens, user credentials, and roles for authorization checks.
+
+Test Execution:
+The test cases will be executed using the JavaScript code in Visual Studio Code.
+Test results and any observed issues or failures will be logged and reported.
